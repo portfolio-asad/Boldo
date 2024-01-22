@@ -1,0 +1,89 @@
+/*************************/
+/********* header ********/
+/*************************/
+header{
+    height: 100svh;
+}
+header .hero{
+    height: calc(100svh - 180px);
+}
+header .hero-carousel .hero-carousel-wrapper .overlay{
+    background: linear-gradient(90deg,
+     #0A2640 0%,
+     rgba(10, 38, 64, 0.11) 31.6%,
+     rgba(10, 38, 64, 0.00) 72.89%,
+     #0A2640 97.87%);
+     height: 100%;
+     width: 100%;
+}
+/*************************/
+/******* customer ********/
+/*************************/
+section.customer .row .main_post{
+    position: relative;
+}
+section.customer .row .main_post .inner_img{
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    padding: 6%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow:  0px 4px 32px 0px rgb(48, 46, 46);
+}
+/*************************/
+/****** features ********/
+/*************************/
+section.features .container .row .main_post{
+    position: relative;
+}
+section.features .container .row .left_details .post{
+    border: 2px solid transparent;
+    background-color: rgb(241, 233, 233);
+    width: 350px;
+    height: 50px;
+    margin: 10px 0;
+    padding: 10px 5px;
+}
+section.features .container .row .main_post .inner_img{
+    position: absolute;
+    top: 55%;
+    left: 9%;
+    padding: 8px 4px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    box-shadow:  0px 4px 32px 0px rgb(48, 46, 46);
+}
+/*************************/
+/****** templates *******/
+/*************************/
+section.templates .row .post{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 60px 20px;
+
+}
+/*************************/
+/****** offices **********/
+/*************************/
+section.office .container .row hr{
+    max-width: 83%;
+    border: 2px solid;
+}
+/*************************/
+/********* email *********/
+/*************************/
+section.email .container{
+    border: 1px solid;
+    border-radius: 20px;
+}
+section.email .main_details input{
+    width: 370px;
+    height: 56px;
+    border-radius: 240px;
+    border: 2px solid white;
+    background-color: white;
+    padding: 10px 10px;
+    font-weight: bold;
+    margin: 10px;
+}
