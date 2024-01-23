@@ -110,7 +110,7 @@ section.our_blog hr{
 /*************************/
 /******* blog page *******/
 /*************************/
-header.blog section.hero .container hr{
+section.blog_hero .container hr{
     border: 2px solid;
     color: black;
 
