@@ -63,6 +63,9 @@ h6{
 .text-larger{
     font-size: 48px !important;
 }
+.text-larger-2{
+    font-size: 94px !important;
+}
 .text-start{
     text-align: left !important;
 }
@@ -114,7 +117,7 @@ h6{
     color: #0A2640 !important;
 }
 .text-secondry{
-    background-color:#69E6A6 !important;
+    color:#69E6A6 !important;
 }
 .text-white{
     color: #fff !important;

@@ -1,7 +1,7 @@
 /*************************/
 /********* header ********/
 /*************************/
-header{
+header.home{
     height: 100svh;
 }
 header .hero{
@@ -86,4 +86,32 @@ section.email .main_details input{
     padding: 10px 10px;
     font-weight: bold;
     margin: 10px;
+}
+/*************************/
+/******* about page ******/
+/*************************/
+header.about{
+    height: 515px;
+    margin-bottom: 490px;
+}
+section.values .container{
+    padding-left: 300px;
+}
+/*************************/
+/******* about-2 page ****/
+/*************************/
+header.about-2{
+    height: 500px;
+}
+section.our_blog hr{
+    color: white;
+    border: 2px solid;
+}
+/*************************/
+/******* blog page *******/
+/*************************/
+header.blog section.hero .container hr{
+    border: 2px solid;
+    color: black;
+
 }
